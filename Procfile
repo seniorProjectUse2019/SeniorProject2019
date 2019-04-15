@@ -1,1 +1,1 @@
-'web: gunicorn Condo.wsgi --log-file -'
+'web: gunicorn Condo.wsgi' 
