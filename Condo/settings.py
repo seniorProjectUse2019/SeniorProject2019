@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'Condo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'smartcondo1',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'heroku_b533310def2e9d5',
+        'USER': 'b333a26c2bbc9b',
+        'PASSWORD': 'abe19669',
+        'HOST': 'us-cdbr-iron-east-02.cleardb.net',
         'PORT': '3306',   # my port is 3306 and will be changed later
     }
 }
