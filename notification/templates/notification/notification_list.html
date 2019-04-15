@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Notification in the Room {{ room.RoomNumber }}</h1>
+  <h2>Condo Announcement</h2>
+  <ul>
+    {% for g in global %}
+      <li>
+        <a href="{% url 'notification-detail' g.pk %}">{{ g.Topic }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+    <h1>payment by {{ user.get_username }} Successful</h1>
+    <h2>Detail of the invoice</h2>
+    <div class="order-info">
+        <h3>Detail</h3>
+        <p><strong>Room number:</strong> <a href="">{{ invoice.RoomId }}</a></p> <!-- author detail link not yet defined -->
+        <p><strong>Type:</strong> {{ invoiceItem.Data.Data_Type }}</p>
+        <p><strong>Date:</strong> {{ invoice.Created_date }}</p>
+        <p><strong>other detail:</strong> {{ invoiceItem.Data.Detail }}</p>
+        <p><strong>Unit used:</strong> {{ invoiceItem.quantity }}</p>
+        <p><strong>rate:</strong>{{ invoiceItem.Rate.Rate }}</p>
+        <p><strong>Total:</strong>{{ invoice.Sub_Total }}</p>
+        <p><strong>Status:</strong>{{ invoiceItem.Data.get_status_display }}</p>
+    </div>
+    <p>Please wait for the staff to check the evidence submitted(This process could take up to 24 hour depending on the day)</p>
+{% endblock %}

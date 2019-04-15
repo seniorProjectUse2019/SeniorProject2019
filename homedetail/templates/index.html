@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Smart Condo Home</h1>
+  <p>Welcome to Smart Condo, a website developed by me !</p>
+  <h2>Dynamic content</h2>
+  <p>The condo has the following room counts:</p>
+  <ul>
+    <li><strong>Rooms:</strong> {{ num_rooms }}</li>
+    <li><strong>Room available:</strong> {{ room_avilable }}</li>
+    <li><strong>Data:</strong> {{ num_datas }}</li>
+  </ul>
+{% endblock %}

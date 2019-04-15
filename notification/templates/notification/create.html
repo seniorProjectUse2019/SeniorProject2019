@@ -1,0 +1,26 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+    <h1>Notification created by {{ user.get_username }}</h1>
+
+    <form class="form-horizontal" action="" method="post" enctype='multipart/form-data'>
+        <div class="form-group">
+        {% csrf_token %}
+
+        {% for field in form.visible_fields %}
+            <ul>
+            {{ field.name }}
+            {{ field}}
+            {{ field.help_text }}
+            {{ field.errors }}
+            </ul>
+        {% endfor %}
+        <div class="col-sm-offset-2 col-sm-5">
+        <input class="btn btn-lg btn-block btn-warning" type="submit" value="Submit">
+        <a href="{% url 'index' %}" class="btn btn-lg btn-block btn-warning" role="button">Cancel</a>
+        </div></div>
+    </form>
+
+{% endblock %}
+

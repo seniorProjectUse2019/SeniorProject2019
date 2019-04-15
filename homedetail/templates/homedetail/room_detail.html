@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+   {% if room_detail %}
+   {% for r in room_detail %}
+  <h1>room {{ r.RoomNumber }}</h1>
+
+  <p><strong>Room number:</strong> {{ r.RoomNumber }}</p>
+  <p><strong>Room Detail:</strong> {{ r.RoomDetail}}</p>
+  <p><strong>Room Status:</strong> {{ r.get_status_display }}</p>
+  <p><strong>Room Owner of the Room:</strong> {{ r.UserID.first_name }}</p>
+  {% if user.get_short_name == r.UserID.first_name %}<a href="{% url 'user-in-the-room'  r.RoomId %}"> User in the room </a> {% endif %}
+  <a href="{% url 'room-data' r.RoomId %}"> click here</a>
+    {% endfor %}
+   {% endif %}
+{% endblock %}

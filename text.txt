@@ -1,0 +1,2 @@
+mysql --host=<us-cdbr-iron-east-02.cleardb.net> --user=<b333a26c2bbc9b> --password=<abe19669> --reconnect <heroku_b533310def2e9d5> < smartcondo1.sql
+mysql://b333a26c2bbc9b:abe19669@us-cdbr-iron-east-02.cleardb.net/heroku_b533310def2e9d5?reconnect=true

@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+    {% for n in notification %}
+  <h1> {{ n.Topic }}</h1>
+  <p><strong>Topic:</strong> {{ n.Topic }}</p> <!-- author detail link not yet defined -->
+  <p><strong>Detail:</strong> {{ n.Detail}}</p>
+    {% endfor %}
+  <a href="{% url 'notification' %}">Back</a>
+
+{% endblock %}

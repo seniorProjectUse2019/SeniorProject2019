@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>User you want to add</h1>
+  {% if possible_user %}
+  <ul>
+    {% for p in possible_user %}
+      <li>
+        <a href="{{ room.get_absolute_url }}">{{ room.RoomNumber }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no room added yet</p>
+  {% endif %}       
+{% endblock %}

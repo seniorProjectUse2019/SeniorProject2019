@@ -1,0 +1,25 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>User in the Room {{ room_number }}</h1>
+  {% if user_room %}
+  <h2>Owner of the room</h2>
+  <ul>
+    {% for o in owner %}
+      <li>
+        {{ o.User.first_name }}
+      </li>
+    {% endfor %}
+  </ul>
+  <h2>Tenant in the room</h2>
+  <ul>
+    {% for t in tenant %}
+      <li>
+        {{ t.User.first_name }}
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no one in the room yet</p>
+  {% endif %}       
+{% endblock %}
