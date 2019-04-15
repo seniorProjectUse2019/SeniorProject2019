@@ -87,11 +87,12 @@ WSGI_APPLICATION = 'Condo.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
 DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL')
-    )
+    'default': dj_database_url.config(default=config('DATABASE_URL')),
+               'OPTIONS': {
+                   'timeout': 99999999,
+                   'net_read_timeout': 9999999
+            },
 }
 
 
