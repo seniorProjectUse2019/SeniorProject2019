@@ -156,7 +156,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, "static")
 STATIC_URL = '/static/'
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Redirect to home URL after login (Default redirects to /homedetail/)
 LOGIN_URL = 'login'  # redirect url in case the user is not LOGIN yet
