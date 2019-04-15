@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from homedetail.models import Room, DataType, Data
+from homedetail.models import Room, DataType, Data, UserInTheRoom
 
 
 @admin.register(Room)
@@ -20,4 +20,10 @@ class DataTypeAdmin(admin.ModelAdmin):
 class DataAdmin(admin.ModelAdmin):
     list_display = ('id', 'RoomId', 'Data_Type', 'DataDate', 'DataDeadLine', 'Detail', 'status', )
     list_filter = ('Data_Type', 'DataDate', 'RoomId')
+
+
+@admin.register(UserInTheRoom)
+class UserInTheRoomAdmin(admin):
+    list_display =('User', 'RoomId')
+
 

@@ -88,7 +88,7 @@ def user_that_will_be_add(request, pk, id):
 
 def view_room(request):
     user = request.user
-    room = UserInTheRoom.objects.filter(User=user.id)
+    room = Room.objects.filter(UserID=user.id)
     return render(request, 'homedetail/room_list.html', {'room_list': room})
 
 
