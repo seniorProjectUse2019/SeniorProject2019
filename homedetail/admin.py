@@ -23,7 +23,7 @@ class DataAdmin(admin.ModelAdmin):
 
 
 @admin.register(UserInTheRoom)
-class UserInTheRoomAdmin(admin):
-    list_display =('User', 'RoomId')
+class UserInTheRoomAdmin(admin.ModelAdmin):
+    list_display = ('User', 'RoomId')
 
 
