@@ -16,7 +16,7 @@ def auto_gen_notification(sender,**kwargs):
         data_type = data_insert.Data_Type.get_name_type()
         print(data_type)
         amount = data_insert.amount_used()
-        detail = 'You have new payment pending Payment detail' + '\n' + data_type + ':' + str(amount)
+        detail = 'You have new payment pending Payment detail' + '\n'
         detail += 'Data type of the payment: ' + data_type + '\n' + 'amount: ' + str(amount)
         detail += 'please go to Data page to check for detail'
         SpecificNotification.objects.create(RoomID=kwargs.get('instance').RoomId, DataID=kwargs.get('instance'),
