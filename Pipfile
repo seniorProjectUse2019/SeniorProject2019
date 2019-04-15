@@ -1,0 +1,48 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+cairocffi = "==1.0.2"
+cairosvg = "==2.3.0"
+certifi = "==2019.3.9"
+cffi = "==1.12.2"
+chardet = "==3.0.4"
+cssselect2 = "==0.2.1"
+defusedxml = "==0.5.0"
+dj-database-url = "==0.5.0"
+django-filter = "==2.1.0"
+django-filters = "==0.2.1"
+django-heroku = "==0.3.1"
+future = "==0.17.1"
+gunicorn = "==19.9.0"
+html5lib = "==1.0.1"
+idna = "==2.8"
+line-bot-sdk = "==1.8.0"
+mysqlclient = "==1.4.2.post1"
+oauthlib = "==3.0.1"
+psycopg2 = "==2.8.1"
+pycparser = "==2.19"
+pyphen = "==0.9.5"
+python3-openid = "==3.1.0"
+pytz = "==2018.9"
+requests = "==2.21.0"
+requests-oauthlib = "==1.2.0"
+six = "==1.12.0"
+social-auth-app-django = "==3.1.0"
+social-auth-core = "==3.1.0"
+tinycss2 = "==1.0.2"
+urllib3 = "==1.24.1"
+webencodings = "==0.5.1"
+whitenoise = "==4.1.2"
+python-decouple = "==3.1"
+Django = "==2.0.13"
+Pillow = "==5.4.1"
+PyJWT = "==1.7.1"
+PyYAML = "==5.1"
+
+[requires]
+python_version = "3.7"
