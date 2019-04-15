@@ -175,5 +175,10 @@ SOCIAL_AUTH_LINE_SCOPE = [
     'email',
 ]
 
+# for line chat bot
+LINE_CHANNEL_ACCESS_TOKEN = 'nCTM0F9yupZHf2pKiM01XoZ+P6h+5WlldLdEAYz4ZeQm/EJHK6weQ3aFl8DxW7AkAhrL2F6PF8crtRh2OfMPc8Z8kf2PprOb+8aRrh0a8Wi1rFDOkI75lRyu3DxCB3uaiZM1cvKEwQlxu9iU7HHi5AdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_SECRET = '7bd07016ab58dc882f778a4bc7d0006c'
+
+
 django_heroku.settings(locals())
-del DATABASES['default']['OPTIONS']['sslmode']
+del DATABASES['default']['OPTIONS']['sslmode']  # remove when sent to heroku

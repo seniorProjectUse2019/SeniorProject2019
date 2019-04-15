@@ -71,6 +71,12 @@ class DataType(models.Model):
     DataTypeDetail = models.TextField(max_length=1000, help_text='Enter a brief description of the data Type')
     Rate = models.DecimalField(max_digits= 10, decimal_places=2, default=None)
 
+    def get_rate(self):
+        return self.Rate
+
+    def get_name_type(self):
+        return str(self.DataType_Name)
+
     def __str__(self):
         """String for representing the Model object."""
         return str(self.DataType_Name)
@@ -112,6 +118,11 @@ class Data(models.Model):
         if self.DataDeadLine and date.today() > self.DataDeadLine:
             return True
         return False
+
+    def amount_used(self):
+        rate = self.Data_Type.get_rate()
+        amount = self.UnitUsed*rate
+        return amount
 
     class Meta:
         # permissions = (("can_mark_returned", "Set book as returned"),)

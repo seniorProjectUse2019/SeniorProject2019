@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c3456e-dea1-4587-ad15-c96938b1ee89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notification/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Condo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Condo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homedetail/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/homedetail/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homedetail/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/homedetail/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/notification/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +21,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homedetail/models.py">
+        <entry file="file://$PROJECT_DIR$/Condo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="299">
+              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+              <folding>
+                <element signature="e#306#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notification/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notification/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-279">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -29,13 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Condo/settings.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notification/signals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="174" column="12" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
+            <state relative-caret-position="170">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
-                <element signature="e#306#315#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homedetail/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="809">
+              <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,33 +90,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Condo/wsgi.py">
+        <entry file="file://$PROJECT_DIR$/homedetail/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#221#230#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homedetail/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homedetail/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="476">
               <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -89,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/room_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -101,8 +125,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -128,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/notification/admin.py" />
-        <option value="$PROJECT_DIR$/notification/templates/notification/noti_list.html" />
         <option value="D:html" />
         <option value="$PROJECT_DIR$/homedetail/templates/index.html" />
         <option value="$PROJECT_DIR$/notification/forms.py" />
@@ -150,8 +172,6 @@
         <option value="$PROJECT_DIR$/notification/urls.py" />
         <option value="$PROJECT_DIR$/notification/templates/notification/specific_notification_detail.html" />
         <option value="$PROJECT_DIR$/homedetail/filters.py" />
-        <option value="$PROJECT_DIR$/homedetail/models.py" />
-        <option value="$PROJECT_DIR$/homedetail/templates/homedetail/room_list.html" />
         <option value="$PROJECT_DIR$/homedetail/templates/homedetail/room_detail.html" />
         <option value="$PROJECT_DIR$/payment/forms.py" />
         <option value="$PROJECT_DIR$/payment/views.py" />
@@ -162,7 +182,6 @@
         <option value="$PROJECT_DIR$/homedetail/urls.py" />
         <option value="$PROJECT_DIR$/homedetail/templates/homedetail/edit_user_in_the_room.html" />
         <option value="$PROJECT_DIR$/homedetail/templates/homedetail/user_add.html" />
-        <option value="$PROJECT_DIR$/notification/models.py" />
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/notification/views.py" />
         <option value="$PROJECT_DIR$/notification/templates/notification/notification_list.html" />
@@ -177,15 +196,20 @@
         <option value="$PROJECT_DIR$/Condo/wsgi.py" />
         <option value="$PROJECT_DIR$/homedetail/templates/base_generic.html" />
         <option value="$PROJECT_DIR$/homedetail/views.py" />
-        <option value="$PROJECT_DIR$/Condo/settings.py" />
         <option value="$PROJECT_DIR$/homedetail/admin.py" />
+        <option value="$PROJECT_DIR$/homedetail/templates/homedetail/room_list.html" />
+        <option value="$PROJECT_DIR$/notification/apps.py" />
+        <option value="$PROJECT_DIR$/notification/models.py" />
+        <option value="$PROJECT_DIR$/Condo/settings.py" />
+        <option value="$PROJECT_DIR$/homedetail/models.py" />
+        <option value="$PROJECT_DIR$/notification/signals.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,6 +234,11 @@
               <item name="Condo" type="462c0819:PsiDirectoryNode" />
               <item name="homedetail" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Condo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Condo" type="462c0819:PsiDirectoryNode" />
+              <item name="notification" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Django by Example Code" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -330,12 +359,12 @@
       <workItem from="1555151158190" duration="3403000" />
       <workItem from="1555168314078" duration="3209000" />
       <workItem from="1555231623880" duration="11734000" />
-      <workItem from="1555307633639" duration="21031000" />
+      <workItem from="1555307633639" duration="29971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214492000" />
+    <option name="totallyTimeSpent" value="223432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -391,33 +420,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/payment/templates/payment/pdf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/static/css/pdf.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/payment/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -584,16 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notification/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homedetail/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -622,16 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,10 +707,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/room_list.html">
+    <entry file="file://$PROJECT_DIR$/homedetail/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,40 +724,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/models.py">
+    <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/room_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/views.py">
+    <entry file="file://$PROJECT_DIR$/notification/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Condo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notification/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Condo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="174" column="12" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
+        <state relative-caret-position="299">
+          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
           <folding>
             <element signature="e#306#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/admin.py">
+    <entry file="file://$PROJECT_DIR$/notification/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homedetail/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homedetail/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notification/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notification/signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
