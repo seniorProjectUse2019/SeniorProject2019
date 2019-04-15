@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -153,7 +154,8 @@ SOCIAL_AUTH_LINE_SECRET = '5391b5d467c64c5dc82a5e254b2e78b8'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_ROOT, "static")
 STATIC_URL = '/static/'
 
 
@@ -173,3 +175,5 @@ SOCIAL_AUTH_LINE_SCOPE = [
     'openid',
     'email',
 ]
+
+django_heroku.settings(locals())
