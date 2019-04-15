@@ -6,7 +6,7 @@
   <ul>
     {% for room in room_list %}
       <li>
-        <a href="{% url 'room-detail' room.RoomId.RoomId %}">{{ room.RoomId.RoomNumber }}</a>
+        <a href="{% url 'room-detail' room.RoomId %}">{{ room.RoomNumber }}</a>
       </li>
     {% endfor %}
   </ul>
