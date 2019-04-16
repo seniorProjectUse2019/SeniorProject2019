@@ -3,7 +3,26 @@
 
 {% block content %}
     <h1>payment by {{ user.get_user }}</h1>
-
+    {% for d in data %}
+    <table>
+      <tr>
+      <th>Issue Date </th>
+      <td>{{ d.DataDate }}</td>
+      </tr>
+      <tr>
+      <th>Due Date </th>
+      <td>{{ d.DataDeadLine }}</td>
+      </tr>
+      <tr>
+      <th>Payment Amount </th>
+      <td>{{ d.amount_used }}</td>
+      </tr>
+      <tr>
+      <th>Total </th>
+      <td>{{ d.amount_used }}</td>
+      </tr>
+     </table>
+    {% endfor %}
     <form action="" method="post" enctype='multipart/form-data'>
         {% csrf_token %}
         {% for hidden in form.hidden_fields %}

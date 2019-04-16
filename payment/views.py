@@ -34,7 +34,8 @@ def invoice_create(request, pk):
     if request.method == 'GET':
         form = OrderCreateForm()
         form.initial['PayerId'] = user.id
-        return render(request, 'payment/create.html', {'form': form})
+        return render(request, 'payment/create.html', {'form': form,
+                                                       'data': data})
 
     if request.method == 'POST':
         form = OrderCreateForm(request.POST, request.FILES)
