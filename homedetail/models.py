@@ -12,7 +12,7 @@ class Room(models.Model):
     """Model representing a room(i.e. that is i the condominium)."""
     RoomId = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text='Unique room id')
     RoomNumber = models.CharField(max_length=200, help_text='enter your room number here')
-    RoomDetail = models.TextField(max_length=1000, help_text='Enter a brief description of the room')
+    RoomDetail = models.TextField(max_length=1000, help_text='Enter a brief description of the room', null=True)
     UserID = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, help_text="Room owner of the room")
 
     ROOM_STATUS = (

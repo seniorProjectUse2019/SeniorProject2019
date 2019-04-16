@@ -1,0 +1,31 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>History Payment Detail </h1>
+
+    {% if invoice %}
+    <table>
+        <tr>
+        <th>Data</th>
+        <th>Type</th>
+        <th>Amount</th>
+        <th>Payment Method</th>
+        <th>Status</th>
+        <th>Evidence</th>
+        </tr>
+      {% for i in invoice %}
+        <tr>
+            <td>{{ i.Created_date }}</td>
+            <td>{{ i.Data.Data_Type.DataType_Name }}</td>
+            <td>{{ i.get_total_cost }}</td>
+            <td>{{ i.Payment_method.name }}</td>
+            <td>{{ i.get_status_display }}</td>
+            <td><a href="" >img</a></td>
+        </tr>
+      {% endfor %}
+    </table>
+
+    {% else %}
+      <p>No payment Made yet</p>
+    {% endif %}
+{% endblock %}

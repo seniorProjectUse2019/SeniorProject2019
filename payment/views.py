@@ -5,6 +5,7 @@ from django.template.loader import render_to_string
 from django.http import HttpResponse
 from homedetail.models import Data, DataType
 from .forms import OrderCreateForm
+from payment.models import Invoice
 
 
 # Create your views here.
@@ -13,6 +14,12 @@ from .forms import OrderCreateForm
 def change_data_on_process(data, status):
     data.status = status  # change field
     data.save()  # this will update only
+
+
+def show_invoice(request):
+    user = request.user
+    invoice = Invoice.objects.filter(PayerID=user)
+    return render(request, 'payment/invoice_list.html', {'invoice':invoice})
 
 
 def invoice_create(request, pk):
@@ -39,8 +46,7 @@ def invoice_create(request, pk):
                             Data=data.get(),
                             Rate=date_type.get(),
                             quantity=amount,
-                            Evidence=evidence,
-                            status='P')  # make an invoice
+                            Evidence=evidence)  # make an invoice
             order.save()
             order.Payment_method.set(payment_method)  # Successfully create invoice
 

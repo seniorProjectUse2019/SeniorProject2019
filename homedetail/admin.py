@@ -18,7 +18,7 @@ class DataTypeAdmin(admin.ModelAdmin):
 
 @admin.register(Data)
 class DataAdmin(admin.ModelAdmin):
-    list_display = ('id', 'RoomId', 'Data_Type', 'DataDate', 'DataDeadLine', 'Detail', 'status', )
+    list_display = ('id', 'RoomId', 'Data_Type', 'DataDate', 'DataDeadLine', 'Detail', 'status')
     list_filter = ('Data_Type', 'DataDate', 'RoomId')
 
 

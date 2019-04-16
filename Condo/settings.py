@@ -182,4 +182,4 @@ LINE_CHANNEL_SECRET = '7bd07016ab58dc882f778a4bc7d0006c'
 
 
 django_heroku.settings(locals())
-del DATABASES['default']['OPTIONS']['sslmode']  # remove when sent to heroku
+# del DATABASES['default']['OPTIONS']['sslmode']  # remove when sent to heroku

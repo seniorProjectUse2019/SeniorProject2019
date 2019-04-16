@@ -24,20 +24,6 @@ class Invoice(models.Model):
     Evidence = models.ImageField(upload_to='evidences/', null=True)
     Payment_method = models.ManyToManyField(PaymentType, help_text='Select a method for this payment')
 
-    PAYMENT_STATUS = (
-        ('C', 'complete'),
-        ('F', 'Fail'),
-        ('P', 'Processing'),
-    )
-
-    status = models.CharField(
-        max_length=1,
-        choices=PAYMENT_STATUS,
-        blank=True,
-        default='i',
-        help_text='Payment status',
-    )
-
     def get_total_cost(self):
         return self.Rate.Rate * self.quantity
 
