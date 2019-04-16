@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c3456e-dea1-4587-ad15-c96938b1ee89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Condo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Condo/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Condo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+            <state relative-caret-position="139">
+              <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
               <folding>
                 <element signature="e#306#315#0" expanded="true" />
               </folding>
@@ -204,8 +204,8 @@
         <option value="$PROJECT_DIR$/payment/admin.py" />
         <option value="$PROJECT_DIR$/payment/urls.py" />
         <option value="$PROJECT_DIR$/payment/templates/payment/invoice_list.html" />
-        <option value="$PROJECT_DIR$/Condo/settings.py" />
         <option value="$PROJECT_DIR$/notification/signals.py" />
+        <option value="$PROJECT_DIR$/Condo/settings.py" />
       </list>
     </option>
   </component>
@@ -359,12 +359,12 @@
       <workItem from="1555231623880" duration="11734000" />
       <workItem from="1555307633639" duration="32298000" />
       <workItem from="1555390394199" duration="3570000" />
-      <workItem from="1555399827441" duration="1780000" />
+      <workItem from="1555399827441" duration="2655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231109000" />
+    <option name="totallyTimeSpent" value="231984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -791,8 +791,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Condo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+        <state relative-caret-position="139">
+          <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
           <folding>
             <element signature="e#306#315#0" expanded="true" />
           </folding>
