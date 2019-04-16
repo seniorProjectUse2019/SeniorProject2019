@@ -50,9 +50,10 @@ def invoice_create(request, pk):
                             Evidence=evidence)  # make an invoice
             order.save()
             order.Payment_method.set(payment_method)  # Successfully create invoice
-
             change_data_on_process(data.get(), 'O')
-            return render(request, 'payment/created.html', {'invoice': order})
+
+            result_invoice = Invoice.objects.filter(Data=data)
+            return render(request, 'payment/created.html', {'invoice': result_invoice})
         else:
             print(request.FILES)
             print(form.errors)

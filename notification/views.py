@@ -18,8 +18,4 @@ def detail_notification(request, pk):
                   )
 
 
-def detail_notification_specific(request, pk):
-    specific_notification = SpecificNotification.objects.filter(id__exact=pk)
-    return render(request, 'notification/specific_notification_detail.html', {'notification': specific_notification})
-
 
