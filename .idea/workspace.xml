@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26c3456e-dea1-4587-ad15-c96938b1ee89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/templates/payment/invoice_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment/templates/payment/invoice_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Condo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+              <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
               <folding>
                 <element signature="e#306#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notification/signals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,15 +52,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notification/templates/notification/notification_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/payment/templates/payment/invoice_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -193,7 +195,6 @@
         <option value="$PROJECT_DIR$/homedetail/templates/homedetail/room_list.html" />
         <option value="$PROJECT_DIR$/notification/apps.py" />
         <option value="$PROJECT_DIR$/notification/models.py" />
-        <option value="$PROJECT_DIR$/notification/signals.py" />
         <option value="$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html" />
         <option value="$PROJECT_DIR$/payment/templates/payment/invoice_detail.html" />
         <option value="$PROJECT_DIR$/homedetail/models.py" />
@@ -202,8 +203,9 @@
         <option value="$PROJECT_DIR$/homedetail/admin.py" />
         <option value="$PROJECT_DIR$/payment/admin.py" />
         <option value="$PROJECT_DIR$/payment/urls.py" />
-        <option value="$PROJECT_DIR$/Condo/settings.py" />
         <option value="$PROJECT_DIR$/payment/templates/payment/invoice_list.html" />
+        <option value="$PROJECT_DIR$/Condo/settings.py" />
+        <option value="$PROJECT_DIR$/notification/signals.py" />
       </list>
     </option>
   </component>
@@ -233,7 +235,7 @@
             <path>
               <item name="Condo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Condo" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
+              <item name="notification" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,16 +359,15 @@
       <workItem from="1555231623880" duration="11734000" />
       <workItem from="1555307633639" duration="32298000" />
       <workItem from="1555390394199" duration="3570000" />
-      <workItem from="1555399827441" duration="876000" />
+      <workItem from="1555399827441" duration="1780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230205000" />
+    <option name="totallyTimeSpent" value="231109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15167785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -662,16 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notification/signals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homedetail/templates/base_generic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -774,16 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Condo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
-          <folding>
-            <element signature="e#306#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -795,6 +776,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notification/signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Condo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+          <folding>
+            <element signature="e#306#315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
