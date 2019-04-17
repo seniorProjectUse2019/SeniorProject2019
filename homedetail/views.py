@@ -100,11 +100,6 @@ def data_list(request, pk, room_filter=None):
     return render(request, 'homedetail/data_in_the_room.html', {'data': data})
 
 
-class DataListView(generic.ListView):
-    model = Data
-    paginate_by = 10
-
-
 @login_required
 def index(request):
     """View function for home page of site."""

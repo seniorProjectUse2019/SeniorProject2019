@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c3456e-dea1-4587-ad15-c96938b1ee89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/templates/payment/created.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment/templates/payment/created.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/payment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html" beforeDir="false" afterPath="$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homedetail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homedetail/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Condo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+            <state relative-caret-position="244">
+              <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
               <folding>
                 <element signature="e#306#315#0" expanded="true" />
               </folding>
@@ -30,10 +29,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-337" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homedetail/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state>
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -71,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homedetail/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+            <state relative-caret-position="139">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
               </folding>
@@ -168,7 +183,6 @@
         <option value="$PROJECT_DIR$/homedetail/templates/homedetail/room_list.html" />
         <option value="$PROJECT_DIR$/notification/apps.py" />
         <option value="$PROJECT_DIR$/notification/models.py" />
-        <option value="$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html" />
         <option value="$PROJECT_DIR$/payment/templates/payment/invoice_detail.html" />
         <option value="$PROJECT_DIR$/homedetail/models.py" />
         <option value="$PROJECT_DIR$/payment/models.py" />
@@ -178,9 +192,7 @@
         <option value="$PROJECT_DIR$/payment/templates/payment/invoice_list.html" />
         <option value="$PROJECT_DIR$/notification/signals.py" />
         <option value="$PROJECT_DIR$/payment/templates/payment/create.html" />
-        <option value="$PROJECT_DIR$/homedetail/views.py" />
         <option value="$PROJECT_DIR$/notification/views.py" />
-        <option value="$PROJECT_DIR$/Condo/settings.py" />
         <option value="$PROJECT_DIR$/homedetail/static/css/styles.css" />
         <option value="$PROJECT_DIR$/homedetail/templates/base_generic.html" />
         <option value="$PROJECT_DIR$/homedetail/urls.py" />
@@ -188,6 +200,9 @@
         <option value="$PROJECT_DIR$/I want to see.html" />
         <option value="$PROJECT_DIR$/payment/views.py" />
         <option value="$PROJECT_DIR$/payment/templates/payment/created.html" />
+        <option value="$PROJECT_DIR$/Condo/settings.py" />
+        <option value="$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html" />
+        <option value="$PROJECT_DIR$/homedetail/views.py" />
       </list>
     </option>
   </component>
@@ -214,6 +229,24 @@
               <item name="Condo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Condo" type="462c0819:PsiDirectoryNode" />
               <item name="Condo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Condo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Condo" type="462c0819:PsiDirectoryNode" />
+              <item name="homedetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Condo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Condo" type="462c0819:PsiDirectoryNode" />
+              <item name="homedetail" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Condo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Condo" type="462c0819:PsiDirectoryNode" />
+              <item name="homedetail" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="homedetail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Condo" type="b2602c69:ProjectViewProjectNode" />
@@ -343,17 +376,18 @@
       <workItem from="1555390394199" duration="3570000" />
       <workItem from="1555399827441" duration="3278000" />
       <workItem from="1555422264213" duration="6100000" />
-      <workItem from="1555487497671" duration="1277000" />
+      <workItem from="1555487497671" duration="1540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239984000" />
+    <option name="totallyTimeSpent" value="240247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19932885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19932885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -367,7 +401,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.39943343" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932885" visible="true" weight="0.398017" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932885" visible="true" weight="0.398017" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -403,13 +437,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/room_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payment/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -651,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_detail.html" />
     <entry file="file://$PROJECT_DIR$/notification/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -681,16 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homedetail/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payment/templates/payment/created.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -764,10 +764,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Condo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="244">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
           <folding>
             <element signature="e#306#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_in_the_room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homedetail/templates/homedetail/data_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homedetail/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homedetail/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
