@@ -10,12 +10,6 @@ from payment.models import Invoice
 
 # Create your views here.
 
-
-def change_data_on_process(data, status):
-    data.status = status  # change field
-    data.save()  # this will update only
-
-
 def show_invoice(request):
     user = request.user
     invoice = Invoice.objects.filter(PayerID=user)
@@ -50,7 +44,7 @@ def invoice_create(request, pk):
                             Evidence=evidence)  # make an invoice
             order.save()
             order.Payment_method.set(payment_method)  # Successfully create invoice
-            change_data_on_process(data.get(), 'O')
+            data.update(status='O')
 
             result_invoice = Invoice.objects.filter(Data=data)
             return render(request, 'payment/created.html', {'invoice': result_invoice})
