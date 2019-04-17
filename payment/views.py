@@ -46,8 +46,8 @@ def invoice_create(request, pk):
             order.Payment_method.set(payment_method)  # Successfully create invoice
             data.update(status='O')
 
-            result_invoice = Invoice.objects.filter(Data=data)
-            return render(request, 'payment/created.html', {'invoice': result_invoice})
+            print(order)
+            return render(request, 'payment/created.html', {'invoice': order})
         else:
             print(request.FILES)
             print(form.errors)
