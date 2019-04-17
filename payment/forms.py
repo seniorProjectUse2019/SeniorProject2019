@@ -12,9 +12,6 @@ class OrderCreateForm(forms.ModelForm):
     class Meta:
         model = Invoice
         fields = ['Evidence', 'Payment_method']
-        widgets = {
-                    'PayerId': forms.HiddenInput(),
-         }
 
     def __init__(self, *args, **kwargs):
         super(OrderCreateForm, self).__init__(*args, **kwargs)

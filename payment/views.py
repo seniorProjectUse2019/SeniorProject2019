@@ -36,7 +36,7 @@ def invoice_create(request, pk):
         if form.is_valid():
             evidence = form.cleaned_data['Evidence']  # clean data from the form
             payment_method = form.cleaned_data['Payment_method']
-            payer_id = form.cleaned_data['PayerId']  # Finish clean data form
+            payer_id = request.user
             order = Invoice(PayerID=payer_id,
                             Data=data.get(),
                             Rate=date_type.get(),
