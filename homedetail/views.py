@@ -100,6 +100,11 @@ def data_list(request, pk, room_filter=None):
     return render(request, 'homedetail/data_in_the_room.html', {'data': data})
 
 
+def data_detail(request, pk):
+    data = Data.objects.filter(id=pk)
+    return render(request, 'homedetail/data_detail.html', {'data': data})
+
+
 @login_required
 def index(request):
     """View function for home page of site."""

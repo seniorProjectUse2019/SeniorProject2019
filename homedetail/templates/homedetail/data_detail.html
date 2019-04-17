@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+   {% for d in data %}
+  <h1>Data Detail of the room {{ d.RoomId.RoomNumber }}</h1>
+
+      <p><strong>Room number: </strong> {{ d.RoomId.RoomNumber }}</p>
+      <p><strong>Data Type: </strong> {{ d.Data_Type.DataType_Name}}</p>
+      <p><strong>Data Date: </strong> {{ d.DataDate }}</p>
+      <p><strong>Dead Line: </strong> {{ d.DataDeadLine }}</p>
+      <p><strong>Detail: </strong> {{ d.Detail }}</p>
+      <p><strong>Unit Used: </strong> {{ d.UnitUsed }}</p>
+      <p><strong>Status: </strong>{{ d.get_status_display }}</p>
+      <a href="{% url 'room-data' d.RoomId.RoomId %}"> Back To Summary</a>
+    {% endfor %}
+{% endblock %}

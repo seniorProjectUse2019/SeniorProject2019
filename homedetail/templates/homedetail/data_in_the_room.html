@@ -10,7 +10,7 @@
         <th>Type</th>
         <th>Unit</th>
         <th>Status</th>
-        <th></th>
+        <th>View Detail</th>
         <th></th>
         </tr>
       {% for d in data %}
@@ -18,6 +18,10 @@
             <td>{{ d.DataDate }}</td>
             <td>{{ d.Data_type.DataType_Name }}</td>
             <td>{{ d.UnitUsed }}</td>
+            <td>{{ d.get_status_display }}</td>
+            <td>
+                <a href="{% url 'data' d.id %}">Click here</a>
+            </td>
              <td>
                  {% if d.status  == 'N' %}
                 <a href="{% url 'invoice-create' d.id %}">Pay Now</a>
