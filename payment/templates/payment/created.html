@@ -5,17 +5,17 @@
     <h1>payment by {{ user.get_username }} Successful</h1>
     <h2>Detail of the invoice</h2>
     <div class="order-info">
-    {% for i in invoice %}
+    {% if invoice %}
         <h3>Detail of payment</h3>
-        <p><strong>Room number:</strong> <a href="">{{ i.Data. }}</a></p> <!-- author detail link not yet defined -->
-        <p><strong>Type:</strong> {{ i.Data.Data_Type }}</p>
-        <p><strong>Date:</strong> {{ i.Created_date }}</p>
-        <p><strong>other detail:</strong> {{ i.Data.Detail }}</p>
-        <p><strong>Unit used:</strong> {{ i.quantity }}</p>
-        <p><strong>rate:</strong>{{ i.Rate.Rate }}</p>
-        <p><strong>Total:</strong>{{ i.get_total_cost }}</p>
-        <p><strong>Status:</strong>{{ invoiceItem.Data.get_status_display }}</p>
-    {% endfor %}
+        <p><strong>Room number:</strong> <a href="">{{ invoice.Data.RoomId.RoomNumber }}</a></p> <!-- author detail link not yet defined -->
+        <p><strong>Type:</strong> {{ invoice.Data.Data_Type.DataType_Name }}</p>
+        <p><strong>Date:</strong> {{ invoice.Created_date }}</p>
+        <p><strong>other detail:</strong> {{ invoice.Data.Detail }}</p>
+        <p><strong>Unit used:</strong> {{ invoice.quantity }}</p>
+        <p><strong>rate:</strong>{{ invoice.Rate.Rate }}</p>
+        <p><strong>Total:</strong>{{ invoice.get_total_cost }}</p>
+        <p><strong>Status:</strong>{{ invoice.Data.get_status_display }}</p>
+    {% endif %}
     </div>
     <p>Please wait for the staff to check the evidence submitted(This process could take up to 24 hour depending on the day)</p>
 {% endblock %}

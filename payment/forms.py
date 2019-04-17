@@ -7,7 +7,7 @@ from django.forms import HiddenInput
 class OrderCreateForm(forms.ModelForm):
     # Evidence = forms.ImageField()
     # Payment_method = forms.ModelChoiceField(queryset=PaymentType.objects.all())
-    PayerId = forms.ModelChoiceField(queryset=User.objects.all(), widget=forms.HiddenInput())
+    # PayerId = forms.ModelChoiceField(queryset=User.objects.all(), widget=forms.HiddenInput())
 
     class Meta:
         model = Invoice
@@ -15,4 +15,10 @@ class OrderCreateForm(forms.ModelForm):
         widgets = {
                     'PayerId': forms.HiddenInput(),
          }
+
+    def __init__(self, *args, **kwargs):
+        super(OrderCreateForm, self).__init__(*args, **kwargs)
+        self.fields['Payment_method'] = forms.ModelChoiceField(queryset=PaymentType.objects.all())
+
+
 
