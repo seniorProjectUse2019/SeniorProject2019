@@ -22,7 +22,8 @@ class Invoice(models.Model):
     quantity = models.PositiveIntegerField()
     Created_date = models.DateTimeField(auto_now_add=True)
     Evidence = models.ImageField(upload_to='evidences/', null=True)
-    Payment_method = models.ManyToManyField(PaymentType, help_text='Select a method for this payment')
+    Payment_method = models.ForeignKey(PaymentType, on_delete=models.SET_NULL,
+                                       help_text='Select a method for this payment', null=True)
 
     def get_total_cost(self):
         return self.Rate.Rate * self.quantity

@@ -41,9 +41,9 @@ def invoice_create(request, pk):
                             Data=data.get(),
                             Rate=date_type.get(),
                             quantity=amount,
+                            Payment_method=payment_method,
                             Evidence=evidence)  # make an invoice
-            order.save()
-            order.Payment_method.set(payment_method)  # Successfully create invoice
+            order.save()  # Successfully create invoice
             data.update(status='O')
 
             return render(request, 'payment/created.html', {'invoice': order})

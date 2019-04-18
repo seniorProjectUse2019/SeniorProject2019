@@ -6,7 +6,6 @@
     <h2>Detail of the invoice</h2>
     <div class="order-info">
     {% if invoice %}
-        <h3>Detail of payment</h3>
         <p><strong>Room number:</strong> <a href="">{{ invoice.Data.RoomId.RoomNumber }}</a></p> <!-- author detail link not yet defined -->
         <p><strong>Type:</strong> {{ invoice.Data.Data_Type.DataType_Name }}</p>
         <p><strong>Date:</strong> {{ invoice.Created_date }}</p>

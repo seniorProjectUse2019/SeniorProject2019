@@ -1,12 +1,13 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
+      {% load static %}
      <a href="{% url 'social:begin' 'line'%}">Line(image later)</a>
 <div class="loginBox">
     <div class="glass">
     <h3>Login Method</h3>
     <p>For Admin</p>
-    <img src="/media/image/user.png" class="user">
+    <img src="{% static "image/user.png" %}" class="user">
     {% if form.errors %}
       <p>Your username and password didn't match. Please try again.</p>
     {% endif %}

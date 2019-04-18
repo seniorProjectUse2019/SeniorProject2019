@@ -8,6 +8,13 @@ import uuid  # Required for unique instances
 # Create your models here.
 
 
+def get_first_name(self):
+    return self.first_name
+
+
+User.add_to_class("__str__", get_first_name)
+
+
 class Room(models.Model):
     """Model representing a room(i.e. that is i the condominium)."""
     RoomId = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text='Unique room id')
@@ -29,11 +36,11 @@ class Room(models.Model):
         help_text='Room Status',
     )
 
-    def display_owner(self):
+    def display_owner_firstname(self):
         """Create a string for the Payment Method. This is required to display pament method in Admin."""
-        return self.UserID
+        return self.UserID.first_name
 
-    display_owner.short_description = 'Room Owner'
+    display_owner_firstname.short_description = 'Room Owner'
 
     def get_absolute_url(self):
         """Returns the url to access a particular room instance."""
